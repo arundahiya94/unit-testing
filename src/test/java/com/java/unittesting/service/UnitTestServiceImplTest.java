@@ -16,7 +16,7 @@ import com.java.unittesting.dao.UnitTestDao;
 public class UnitTestServiceImplTest {
 
 	@InjectMocks
-	UnitTestServiceImpl serviceImpl = new UnitTestServiceImpl();
+	UnitTestServiceImpl serviceImpl;
 
 	@Mock
 	UnitTestDao unitTestDao = mock(UnitTestDao.class);
